@@ -1,0 +1,76 @@
+sim-cheetah: SimpleScalar/PISA Tool Set version 3.0 of August, 2003.
+Copyright (c) 1994-2003 by Todd M. Austin, Ph.D. and SimpleScalar, LLC.
+All Rights Reserved. This version of SimpleScalar is licensed for academic
+non-commercial use.  No portion of this work may be used by any commercial
+entity, or for any commercial purpose, without the prior written permission
+of SimpleScalar, LLC (info@simplescalar.com).
+
+Portions Copyright (C) 1989-1993 by Rabin A. Sugumar and Santosh G. Abraham.
+sim: command line: ./sim-cheetah -redir:sim SpecOutput/problem3/pro3.txt -R opt -C sa -a 7 -b 11 -l 4 -n 2 go.ss 2 8 go.in 
+
+sim: simulation started @ Sun Nov 30 15:59:25 2014, options follow:
+
+sim-cheetah: This program implements a functional simulator driver for
+Cheetah.  Cheetah is a cache simulation package written by Rabin Sugumar
+and Santosh Abraham which can efficiently simulate multiple cache
+configurations in a single run of a program.  Specifically, Cheetah can
+simulate ranges of single level set-associative and fully-associative
+caches.  See the directory libcheetah/ for more details on Cheetah.
+
+# -config                     # load configuration from a file
+# -dumpconfig                 # dump configuration to a file
+# -h                    false # print help message    
+# -v                    false # verbose operation     
+# -d                    false # enable debug message  
+# -i                    false # start in Dlite debugger
+-seed                       1 # random number generator seed (0 for timer seed)
+# -q                    false # initialize and terminate immediately
+# -chkpt               <null> # restore EIO trace execution from <fname>
+# -redir:sim     SpecOutput/problem3/pro3.txt # redirect simulator output to file (non-interactive only)
+# -redir:prog          <null> # redirect simulated program output to file
+-nice                       0 # simulator scheduling priority
+-max:inst          2147483647 # maximum number of inst's to execute
+-refs                    data # reference stream to analyze, i.e., {none|inst|data|unified}
+-R                        opt # replacement policy, i.e., lru or opt
+-C                         sa # cache configuration, i.e., fa, sa, or dm
+-a                          7 # min number of sets (log base 2, line size for DM)
+-b                         11 # max number of sets (log base 2, line size for DM)
+-l                          4 # line size of the caches (log base 2)
+-n                          2 # max degree of associativity to analyze (log base 2)
+-in                       512 # cache size intervals at which miss ratio is shown
+-M                     524288 # maximum cache size of interest
+-c                         16 # size of cache (log base 2) for DM analysis
+
+libcheetah: ** simulation parameters **
+libcheetah: OPT Set-associative caches being simulated
+libcheetah: number of sets from 128 to 2048
+libcheetah: maximum associativity is 4
+libcheetah: line size is 16 bytes
+
+sim: ** starting functional simulation **
+
+sim: ** simulation statistics **
+sim_num_insn               31394965 # total number of instructions executed
+sim_num_refs                8154766 # total number of loads and stores executed
+sim_elapsed_time                  2 # total simulation time in seconds
+sim_inst_rate          15697482.5000 # simulation speed (in insts/sec)
+
+libcheetah: ** end of simulation **
+Addresses processed: 8155568
+Line size: 16 bytes
+
+Miss Ratios
+___________
+
+		Associativity
+		1		2		3		4		
+No. of sets
+128		0.149454	0.071916	0.048655	0.037641	
+256		0.106226	0.048559	0.032539	0.024930	
+512		0.079259	0.033936	0.021734	0.015905	
+1024		0.050421	0.019199	0.011578	0.007579	
+2048		0.032690	0.010186	0.005191	0.003463	
+
+
+
+

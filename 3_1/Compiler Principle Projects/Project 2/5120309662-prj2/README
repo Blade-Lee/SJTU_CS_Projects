@@ -1,0 +1,13 @@
+There are 5 files in my project:
+
+1.makefile
+	use flex, yacc and g++ to compile
+
+2.def.h: header file
+	symbol table definitions and attributes declaration
+
+3.smallc.l: Lex program
+
+4.smallc.y: Yacc program
+
+5.5120309662-report.pdf: project report

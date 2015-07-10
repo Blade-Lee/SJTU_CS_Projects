@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLRApp", "TestLRApp\TestLRApp.csproj", "{B157D763-6EEC-4B70-94A1-588264E4EBDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LR_GPULib", "LR_GPULib\LR_GPULib.vcxproj", "{A43CF066-0262-4B29-B2A2-213F9AC1B032}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Debug|Win32.ActiveCfg = Debug|x86
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Debug|x86.ActiveCfg = Debug|x86
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Debug|x86.Build.0 = Debug|x86
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Release|Win32.ActiveCfg = Release|x86
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Release|x86.ActiveCfg = Release|x86
+		{B157D763-6EEC-4B70-94A1-588264E4EBDA}.Release|x86.Build.0 = Release|x86
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Debug|Win32.Build.0 = Debug|Win32
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Debug|x86.ActiveCfg = Debug|Win32
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Release|Win32.ActiveCfg = Release|Win32
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Release|Win32.Build.0 = Release|Win32
+		{A43CF066-0262-4B29-B2A2-213F9AC1B032}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

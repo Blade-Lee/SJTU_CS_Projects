@@ -1,0 +1,338 @@
+﻿生成启动时间为 2015/1/7 12:15:17。
+     1>项目“C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPULib.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CudaClean:
+         cmd.exe /C "C:\Users\Blade\AppData\Local\Temp\tmp9e56226d22b74fe497191593625cdee0.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -D"-DTHRUST_DEBUG" -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DLR_GPULIB_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\LR_GPU.cu.obj "C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU.cu" -clean
+         
+         C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -D"-DTHRUST_DEBUG" -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DLR_GPULIB_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\LR_GPU.cu.obj "C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU.cu" -clean 
+         LR_GPU.cu
+       CudaClean:
+         cmd.exe /C "C:\Users\Blade\AppData\Local\Temp\tmp6ba6f24d462143819c0f29b2b40f565c.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -D"-DTHRUST_DEBUG" -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DLR_GPULIB_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\LR_GPU_Functors.cu.obj "C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU_Functors.cu" -clean
+         
+         C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -D"-DTHRUST_DEBUG" -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DLR_GPULIB_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\LR_GPU_Functors.cu.obj "C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU_Functors.cu" -clean 
+         LR_GPU_Functors.cu
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D-DTHRUST_DEBUG /DWIN32 /D_DEBUG /D_WINDOWS /D_USRDLL /DLR_GPULIB_EXPORTS /D_WINDLL /D_UNICODE /DUNICODE /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I. /FIcuda_runtime.h /c C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU.cu 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D-DTHRUST_DEBUG /DWIN32 /D_DEBUG /D_WINDOWS /D_USRDLL /DLR_GPULIB_EXPORTS /D_WINDLL /D_UNICODE /DUNICODE /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I. /FIcuda_runtime.h /c C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU_Functors.cu 
+       CudaBuild:
+         Compiling CUDA source file LR_GPU.cu...
+         cmd.exe /C "C:\Users\Blade\AppData\Local\Temp\tmp8cb6b3d57cbf4f5bbe1cecd0326f95ea.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D"-DTHRUST_DEBUG" -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DLR_GPULIB_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\LR_GPU.cu.obj "C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU.cu"
+         
+         C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D"-DTHRUST_DEBUG" -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DLR_GPULIB_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\LR_GPU.cu.obj "C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(948): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(1984): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(2932): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(3882): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(4853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(5899): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(6842): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(7786): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(8712): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(9705): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(10766): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         LR_GPU.cu
+     1>c:\windows\largescalemachinelearning\testlr\lr_gpulib\LR_GPU_Functors.cu(20): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\windows\largescalemachinelearning\testlr\lr_gpulib\LR_GPU_Functors.cu(44): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\windows\largescalemachinelearning\testlr\lr_gpulib\LR_GPU_Functors.cu(69): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\windows\largescalemachinelearning\testlr\lr_gpulib\LR_GPU_Functors.cu(143): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\windows\largescalemachinelearning\testlr\lr_gpulib\LR_GPU_Functors.cu(144): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\windows\largescalemachinelearning\testlr\lr_gpulib\LR_GPU_Functors.cu(145): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\windows\largescalemachinelearning\testlr\lr_gpulib\LR_GPU_Functors.cu(147): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU.cu(108): warning C4018: “<”: 有符号/无符号不匹配
+     1>C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU.cu(113): warning C4018: “<”: 有符号/无符号不匹配
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/system/cuda/detail/for_each.inl(99): warning C4244: “参数”: 从“__int64”转换到“const size_t”，可能丢失数据
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/system/cuda/detail/for_each.inl(163): 参见对正在编译的函数 模板 实例化“thrust::tuple<__w64 unsigned int,__w64 unsigned int,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type> thrust::system::cuda::detail::for_each_n_detail::configure_launch<thrust::system::cuda::detail::for_each_n_detail::for_each_n_closure<thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,unsigned int,thrust::detail::device_binary_transform_functor<FeatureNormalizationgFunctor>,thrust::system::cuda::detail::detail::blocked_thread_array>,Size>(Size)”的引用
+                 with
+                 [
+                     T=float
+         ,            Size=__int64
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/system/cuda/detail/for_each.inl(191): 参见对正在编译的函数 模板 实例化“RandomAccessIterator thrust::system::cuda::detail::for_each_n<thrust::system::cuda::detail::tag,InputIterator,__int64,UnaryFunction>(thrust::system::cuda::detail::execution_policy<thrust::system::cuda::detail::tag> &,RandomAccessIterator,Size,UnaryFunction)”的引用
+                 with
+                 [
+                     RandomAccessIterator=thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<float>,thrust::device_ptr<float>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>
+         ,            InputIterator=thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<float>,thrust::device_ptr<float>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>
+         ,            UnaryFunction=thrust::detail::device_binary_transform_functor<FeatureNormalizationgFunctor>
+         ,            Size=__int64
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/detail/for_each.inl(43): 参见对正在编译的函数 模板 实例化“InputIterator thrust::system::cuda::detail::for_each<thrust::system::cuda::detail::tag,InputIterator,UnaryFunction>(thrust::system::cuda::detail::execution_policy<thrust::system::cuda::detail::tag> &,InputIterator,InputIterator,UnaryFunction)”的引用
+                 with
+                 [
+                     InputIterator=thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<float>,thrust::device_ptr<float>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>
+         ,            UnaryFunction=thrust::detail::device_binary_transform_functor<FeatureNormalizationgFunctor>
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/system/detail/generic/transform.inl(92): 参见对正在编译的函数 模板 实例化“InputIterator thrust::for_each<DerivedPolicy,thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,thrust::detail::device_binary_transform_functor<FeatureNormalizationgFunctor>>(const thrust::detail::execution_policy_base<DerivedPolicy> &,InputIterator,InputIterator,UnaryFunction)”的引用
+                 with
+                 [
+                     InputIterator=thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<float>,thrust::device_ptr<float>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>
+         ,            DerivedPolicy=thrust::system::cuda::detail::tag
+         ,            T=float
+         ,            UnaryFunction=thrust::detail::device_binary_transform_functor<FeatureNormalizationgFunctor>
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/detail/transform.inl(58): 参见对正在编译的函数 模板 实例化“OutputIterator thrust::system::detail::generic::transform<thrust::system::cuda::detail::tag,InputIterator1,InputIterator2,OutputIterator,BinaryFunction>(thrust::execution_policy<thrust::system::cuda::detail::tag> &,InputIterator1,InputIterator1,InputIterator2,OutputIterator,BinaryFunction)”的引用
+                 with
+                 [
+                     OutputIterator=thrust::device_ptr<float>
+         ,            InputIterator1=thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>
+         ,            InputIterator2=thrust::device_ptr<float>
+         ,            BinaryFunction=FeatureNormalizationgFunctor
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/detail/transform.inl(156): 参见对正在编译的函数 模板 实例化“OutputIterator thrust::transform<DerivedPolicy,InputIterator1,InputIterator2,OutputIterator,BinaryFunction>(const thrust::detail::execution_policy_base<DerivedPolicy> &,InputIterator1,InputIterator1,InputIterator2,OutputIterator,BinaryFunction)”的引用
+                 with
+                 [
+                     OutputIterator=thrust::device_ptr<float>
+         ,            DerivedPolicy=thrust::system::cuda::detail::tag
+         ,            InputIterator1=thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>
+         ,            InputIterator2=thrust::device_ptr<float>
+         ,            BinaryFunction=FeatureNormalizationgFunctor
+                 ]
+                 C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU.cu(35): 参见对正在编译的函数 模板 实例化“OutputIterator thrust::transform<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,FeatureNormalizationgFunctor>(InputIterator1,InputIterator1,InputIterator2,OutputIterator,BinaryFunction)”的引用
+                 with
+                 [
+                     OutputIterator=thrust::device_ptr<float>
+         ,            T=float
+         ,            InputIterator1=thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>
+         ,            InputIterator2=thrust::device_ptr<float>
+         ,            BinaryFunction=FeatureNormalizationgFunctor
+                 ]
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/detail/zip_iterator_base.h(49): warning C4244: “参数”: 从“const __int64”转换到“int”，可能丢失数据
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/detail/zip_iterator_base.h(197): 参见对正在编译的函数 模板 实例化“void thrust::detail::advance_iterator<__int64>::operator ()<T>(Iterator &) const”的引用
+                 with
+                 [
+                     T=thrust::device_ptr<float>
+         ,            Iterator=thrust::device_ptr<float>
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/detail/zip_iterator_base.h(197): 参见对正在编译的函数 模板 实例化“void thrust::detail::advance_iterator<__int64>::operator ()<T>(Iterator &) const”的引用
+                 with
+                 [
+                     T=thrust::device_ptr<float>
+         ,            Iterator=thrust::device_ptr<float>
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/detail/zip_iterator_base.h(198): 参见对正在编译的函数 模板 实例化“Fun thrust::detail::tuple_impl_specific::tuple_for_each<T,Fun,System>(Tuple &,Fun,System *)”的引用
+                 with
+                 [
+                     Fun=thrust::detail::advance_iterator<__int64>
+         ,            T=thrust::detail::cons<thrust::device_ptr<float>,thrust::detail::cons<thrust::device_ptr<float>,thrust::detail::map_tuple_to_cons<thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>::type>>
+         ,            System=thrust::system::cuda::detail::tag
+         ,            Tuple=thrust::detail::cons<thrust::device_ptr<float>,thrust::detail::cons<thrust::device_ptr<float>,thrust::detail::map_tuple_to_cons<thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>::type>>
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/detail/zip_iterator.inl(94): 参见对正在编译的函数 模板 实例化“Fun thrust::detail::tuple_impl_specific::tuple_for_each<IteratorTuple,thrust::detail::advance_iterator<__int64>,thrust::system::cuda::detail::tag>(Tuple &,Fun,System *)”的引用
+                 with
+                 [
+                     Fun=thrust::detail::advance_iterator<__int64>
+         ,            IteratorTuple=thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<float>,thrust::device_ptr<float>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>
+         ,            Tuple=thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<float>,thrust::device_ptr<float>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>
+         ,            System=thrust::system::cuda::detail::tag
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/detail/zip_iterator.inl(86): 编译类 模板 成员函数“void thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>::advance(__int64)”时
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/iterator_facade.h(171): 参见对正在编译的函数 模板 实例化“void thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>::advance(__int64)”的引用
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/iterator_facade.h(375): 参见对正在编译的函数 模板 实例化“void thrust::iterator_core_access::advance<Derived>(Facade &,__int64)”的引用
+                 with
+                 [
+                     Derived=thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<float>,thrust::device_ptr<float>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>
+         ,            Facade=thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<float>,thrust::device_ptr<float>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/iterator_facade.h(374): 编译类 模板 成员函数“thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>> &thrust::iterator_facade<thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,thrust::tuple<int,float,float,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>,thrust::system::cuda::detail::tag,thrust::random_access_traversal_tag,thrust::detail::tuple_of_iterator_references<int,thrust::device_reference<T>,thrust::device_reference<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>,__int64>::operator +=(__int64)”时
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/iterator_facade.h(516): 参见对正在编译的函数 模板 实例化“thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>> &thrust::iterator_facade<thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,thrust::tuple<int,float,float,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>,thrust::system::cuda::detail::tag,thrust::random_access_traversal_tag,thrust::detail::tuple_of_iterator_references<int,thrust::device_reference<T>,thrust::device_reference<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>,__int64>::operator +=(__int64)”的引用
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/zip_iterator.h(140): 参见对正在编译的类 模板 实例化“thrust::iterator_facade<thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,thrust::tuple<int,float,float,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>,thrust::system::cuda::detail::tag,thrust::random_access_traversal_tag,thrust::detail::tuple_of_iterator_references<int,thrust::device_reference<T>,thrust::device_reference<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>,__int64>”的引用
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/system/cuda/detail/for_each.inl(58): 参见对正在编译的类 模板 实例化“thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>”的引用
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\blade\appdata\local\temp\tmpxft_000019b8_00000000-2_LR_GPU.cudafe1.stub.c(86): 参见对正在编译的类 模板 实例化“thrust::system::cuda::detail::for_each_n_detail::for_each_n_closure<thrust::zip_iterator<thrust::tuple<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,thrust::device_ptr<T>,thrust::device_ptr<T>,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type,thrust::null_type>>,unsigned int,thrust::detail::device_binary_transform_functor<FeatureNormalizationgFunctor>,thrust::system::cuda::detail::detail::blocked_thread_array>”的引用
+                 with
+                 [
+                     T=float
+                 ]
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/iterator_adaptor.h(203): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/iterator_adaptor.h(201): 编译类 模板 成员函数“void thrust::iterator_adaptor<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>::advance(__int64)”时
+                 with
+                 [
+                     Incrementable=int
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/iterator_facade.h(171): 参见对正在编译的函数 模板 实例化“void thrust::iterator_adaptor<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>::advance(__int64)”的引用
+                 with
+                 [
+                     Incrementable=int
+                 ]
+                 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\thrust/iterator/counting_iterator.h(132): 参见对正在编译的类 模板 实例化“thrust::iterator_adaptor<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>”的引用
+                 with
+                 [
+                     Incrementable=int
+                 ]
+                 C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU.cu(35): 参见对正在编译的类 模板 实例化“thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>”的引用
+       CudaBuild:
+         Compiling CUDA source file LR_GPU_Functors.cu...
+         cmd.exe /C "C:\Users\Blade\AppData\Local\Temp\tmp46f7e535f52243fb8b4e759bc4139ce1.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D"-DTHRUST_DEBUG" -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DLR_GPULIB_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\LR_GPU_Functors.cu.obj "C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU_Functors.cu"
+         
+         C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D"-DTHRUST_DEBUG" -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DLR_GPULIB_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\LR_GPU_Functors.cu.obj "C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPU_Functors.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(948): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(1984): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(2932): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(3882): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(4853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(5899): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(6842): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(7786): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(8712): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(9705): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(10766): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         LR_GPU_Functors.cu
+     1>C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU_Functors.cu(20): warning C4018: “<”: 有符号/无符号不匹配
+     1>C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU_Functors.cu(44): warning C4018: “<”: 有符号/无符号不匹配
+     1>C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU_Functors.cu(69): warning C4018: “<”: 有符号/无符号不匹配
+     1>C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU_Functors.cu(143): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU_Functors.cu(144): warning C4018: “<”: 有符号/无符号不匹配
+     1>C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU_Functors.cu(145): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>C:/Windows/LargeScaleMachineLearning/TestLR/LR_GPULib/LR_GPU_Functors.cu(147): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Windows\LargeScaleMachineLearning\TestLR\Debug\LR_GPULib.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" cudart.lib cublas.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Windows\LargeScaleMachineLearning\TestLR\Debug\LR_GPULib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Windows\LargeScaleMachineLearning\TestLR\Debug\LR_GPULib.lib" /MACHINE:X86 /DLL Debug\LR_GPU.cu.obj
+         Debug\LR_GPU_Functors.cu.obj
+            正在创建库 C:\Windows\LargeScaleMachineLearning\TestLR\Debug\LR_GPULib.lib 和对象 C:\Windows\LargeScaleMachineLearning\TestLR\Debug\LR_GPULib.exp
+         LR_GPULib.vcxproj -> C:\Windows\LargeScaleMachineLearning\TestLR\Debug\LR_GPULib.dll
+     1>已完成生成项目“C:\Windows\LargeScaleMachineLearning\TestLR\LR_GPULib\LR_GPULib.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:19.26
