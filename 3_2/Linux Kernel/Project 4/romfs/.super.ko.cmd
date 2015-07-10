@@ -1,0 +1,1 @@
+cmd_/home/blade/Desktop/romfs/super.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/blade/Desktop/romfs/super.ko /home/blade/Desktop/romfs/super.o /home/blade/Desktop/romfs/super.mod.o

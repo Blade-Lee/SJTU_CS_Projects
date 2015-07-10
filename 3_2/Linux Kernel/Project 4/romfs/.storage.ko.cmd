@@ -1,0 +1,1 @@
+cmd_/home/blade/Desktop/romfs/storage.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/blade/Desktop/romfs/storage.ko /home/blade/Desktop/romfs/storage.o /home/blade/Desktop/romfs/storage.mod.o
