@@ -1,1 +1,0 @@
-cmd_/home/blade/Desktop/romfs/romfs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/blade/Desktop/romfs/romfs.ko /home/blade/Desktop/romfs/romfs.o /home/blade/Desktop/romfs/romfs.mod.o
